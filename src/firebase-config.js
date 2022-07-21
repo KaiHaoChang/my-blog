@@ -7,7 +7,7 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAc_zN2pUuHxjWpbraRxi9lFnDYtGkgXD4',
+  apiKey: process.env.REACT_APP_SECRET_KEY,
   authDomain: "my-blog-dbd4c.firebaseapp.com",
   projectId: "my-blog-dbd4c",
   storageBucket: "my-blog-dbd4c.appspot.com",
